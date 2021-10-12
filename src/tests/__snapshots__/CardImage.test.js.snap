@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test <CardImage /> should render component 1`] = `
+<ForwardRef(Card)
+  className="animate__animated animate__fadeIn"
+  sx={
+    Object {
+      "maxWidth": 345,
+    }
+  }
+>
+  <ForwardRef(CardMedia)
+    alt="asdfasdf87238974Un titulo"
+    component="img"
+    height="140"
+    image="http://www.google.com"
+  />
+  <ForwardRef(CardContent)
+    className="cardTitle"
+  >
+    <ForwardRef(Typography)
+      component="div"
+      gutterBottom={true}
+      variant="caption"
+    >
+      Un titulo
+    </ForwardRef(Typography)>
+  </ForwardRef(CardContent)>
+</ForwardRef(Card)>
+`;
