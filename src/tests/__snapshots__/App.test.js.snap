@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <App /> should create a snapshop 1`] = `
+<Fragment>
+  <CssBaseline />
+  <h1
+    id="title"
+  >
+    GifExpertApp
+  </h1>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category="avatar"
+      key="avatar"
+    />
+    <GifGrid
+      category="goku"
+      key="goku"
+    />
+  </ol>
+</Fragment>
+`;
