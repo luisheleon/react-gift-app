@@ -14,12 +14,12 @@ exports[`Test <App /> should create a snapshop 1`] = `
   />
   <ol>
     <GifGrid
-      category="avatar"
-      key="avatar"
-    />
-    <GifGrid
       category="goku"
       key="goku"
+    />
+    <GifGrid
+      category="saitama"
+      key="saitama"
     />
   </ol>
 </Fragment>

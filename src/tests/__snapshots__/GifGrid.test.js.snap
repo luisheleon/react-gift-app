@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <GifGrid /> should verify snapshot 1`] = `
+<Fragment>
+  Cargando... 
+  <h3>
+    Categories 
+    Ducks
+     
+  </h3>
+  <ForwardRef(Grid)
+    container={true}
+    spacing={2}
+  />
+</Fragment>
+`;

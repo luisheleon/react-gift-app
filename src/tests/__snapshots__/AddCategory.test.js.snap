@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <AddCategory /> should return snapshop 1`] = `
+<Fragment>
+  <h2
+    id="subtitle"
+  >
+    Add category
+  </h2>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="newCategoryForm"
+    >
+      <ForwardRef(TextField)
+        className="inputCategory"
+        error={false}
+        id="outlined-required"
+        label="Add Category"
+        onChange={[Function]}
+        required={true}
+        size="small"
+        value=""
+      />
+    </div>
+    <p />
+    <ForwardRef(Button)
+      disabled={true}
+      id="btnAddCategory"
+      size="medium"
+      type="submit"
+      variant="outlined"
+    >
+      Add
+    </ForwardRef(Button)>
+  </form>
+</Fragment>
+`;

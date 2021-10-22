@@ -4,8 +4,8 @@ import CssBaseline from "@mui/material/CssBaseline";
 import "./App.css";
 import GifGrid from "./components/GifGrid";
 
-function App(props) {
-  const [categories, setCategories] = useState(["avatar", "goku"]);
+function App({ defaultCategory = ["avatar", "goku"] }) {
+  const [categories, setCategories] = useState(defaultCategory);
 
   return (
     <React.Fragment>
